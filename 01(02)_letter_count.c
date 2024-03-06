@@ -1,4 +1,4 @@
-// in this code all letters of sentence excludibg space will be counted
+//In this code all letters of the sentence excluding space will be counted
 #include <stdio.h>
 #include <string.h>
 
