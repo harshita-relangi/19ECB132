@@ -13,7 +13,8 @@ void print_array(){
     printf("%d\t", input[i]);
   printf("\n");
 }
-/* Insertion Sort Algorithm
+/* 
+Insertion Sort Algorithm
 01. Iterate through all elements in the list.
 02. Compare the current element to its predecessor.
 03. If the current element is smaller (greater) than its predecessor, compare it to the elements before.  
@@ -40,7 +41,7 @@ void selection_sort() {
       if (input[j] < input[minimum_value_index])
           minimum_value_index = j;
     }
-    // swap the minimum element with the first element
+    //Swap the minimum element with the first element
     int temp = input[minimum_value_index];
     input[minimum_value_index] = input[i];
     input[i] = temp;
@@ -188,5 +189,58 @@ int main(void) {
 
   
   /* Observations and Output
+case (1)
+1. Insertion Sort 
+2. Merge Sort 
+3. Quick Sort 
+4. Selection Sort  
+5. Shell Sort  
+6. Heap Sort  
+9. Exit
+Select the sorting technique: 1
 
+**Insertion Sort**
+Elements after sorting are ...
+1   2   3   4   5   6   7   8  910
+
+case(2)
+1. Insertion Sort 
+2. Merge Sort 
+3. Quick Sort 
+4. Selection Sort  
+5. Shell Sort  
+6. Heap Sort  
+9. Exit
+Select the sorting technique: 2
+
+**Merge Sort**
+Elements after sorting are ...
+9   10  8   7   6   5   1   2  34
+
+Elements after sorting are ...
+8   9   10  7   6   5   1   2  34
+
+Elements after sorting are ...
+8   9   10  6   7   5   1   2  34
+
+Elements after sorting are ...
+6   7   8   9   10  5   1   2  34
+
+Elements after sorting are ...
+6   7   8   9   10  1   5   2  34
+
+Elements after sorting are ...
+6   7   8   9   10  1   2   5  34
+
+Elements after sorting are ...
+6   7   8   9   10  1   2   5  34
+
+Elements after sorting are ...
+6   7   8   9   10  1   2   3  45
+
+Elements after sorting are ...
+1   2   3   4   5   6   7   8  910
+
+Elements after sorting are ...
+1   2   3   4   5   6   7   8  910
 */
