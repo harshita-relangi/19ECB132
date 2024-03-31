@@ -26,6 +26,6 @@ The number of letters in the given sentence are : 5
 
 */  
 
-
+/*Made new file with changes to this code so as the count characters in the sentence ignoring space" " */
   
 
