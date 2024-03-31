@@ -47,7 +47,6 @@ void singly_linked_list(){
 }
 
 void doubly_linked_list(){
-// Incomplete code
   printf("\n*** Doubly Linked List ***");
   int choice = 1;
   struct doubly_node *head = NULL, *new_node, *temp;
@@ -66,7 +65,7 @@ void doubly_linked_list(){
     scanf("%d", &choice);
   } 
 
-  printf("\nThe elements in the Singly Linked list are...");
+  printf("\nThe elements in the Doubly Linked list are...");
   temp = head;
   while (temp != NULL) {
     printf("\n%d", temp->data);
@@ -94,3 +93,41 @@ int main() {
   }
     
 }
+
+/* 
+output:
+case 01: using singly linked list
+
+1. Singly Linked List 
+2. Doubly Linked List 
+3. Circular Linked List 
+4. Exit
+Choose an option: 1
+
+*** Singly Linked List ***
+Enter node data: 10
+
+To insert a new node press 1 else any other integer: 1
+
+Enter node data: 42
+
+To insert a new node press 1 else any other integer: 1
+
+Enter node data: 12
+
+To insert a new node press 1 else any other integer: 3
+
+The elements in the Singly Linked list are...
+10
+42
+12
+1. Singly Linked List 
+2. Doubly Linked List 
+3. Circular Linked List 
+4. Exit
+Choose an option:
+
+case 02: using a doubly linked list
+
+
+*/
